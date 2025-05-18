@@ -1,0 +1,69 @@
+ body {
+      background: bisque;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+      background: beige;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin-top: 60px;
+    }
+    h1 {
+      font-weight: 700;
+      color: lightskyblue;
+    }
+    label {
+      font-weight: 500;
+    }
+    .form-control {
+      border-radius: 10px;
+    }
+    .btn-primary {
+      border-radius: 10px;
+      padding: 10px 20px;
+      font-weight: 600;
+      background-color: lightskyblue;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: floralwhite;
+    }
+    .btn-info {
+      border-radius: 10px;
+      font-weight: 600;
+    }
+    .rating {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: darkred;
+      margin-top: 15px;
+    }
+    .subject-group {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      margin-bottom: 1.5rem;
+    }
+    .subject-group img {
+      width: 80px;
+      height: auto;
+      margin-right: 15px;
+      border: 3px solid;
+      border-radius: 20px;
+    }
+    .subject-group img.english-icon {
+      width: 60px;
+    }
+    footer {
+      margin-top: 50px;
+      color: papayawhip;
+    }
+    a {
+      color: peachpuff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
